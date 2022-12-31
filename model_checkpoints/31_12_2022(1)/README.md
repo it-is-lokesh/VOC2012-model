@@ -1,6 +1,6 @@
 # Training results
 
-These weights are being optimized using a simple learning model.
+These weights are being optimized using a simple learning model shown below.
 ```
 model = tf.keras.Sequential([
     Conv2D(32, kernel_size=(5,5), padding='valid', activation='relu', input_shape=(128,128,3)),
@@ -21,3 +21,4 @@ model = tf.keras.Sequential([
     Dense(20, activation='sigmoid')
 ])
 ```
+We observe that though the training loss decreases with the #iterations, the validation set loss takes a U shape curve, meaning it decreases until a few iterations and then increases. This means the model is moving towards overfitting or high variance
