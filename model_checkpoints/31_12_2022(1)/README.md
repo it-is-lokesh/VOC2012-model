@@ -23,5 +23,5 @@ model = tf.keras.Sequential([
 ```
 
 Analysis:
-<img src="model_checkpoints\31_12_2022(1)\accuracy.png"/><br>
-<img src="model_checkpoints\31_12_2022(1)\loss.png"/><br>
+<img src="accuracy.png"/><br>
+<img src="loss.png"/><br>
