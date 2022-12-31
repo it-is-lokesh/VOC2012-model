@@ -5,7 +5,7 @@ This project is an attempt to understand how the model architecture is affecting
 The dataset is a collection of 17125 images divided into 20 classes. 
 The results and discussion for each training model have been included in the "model_checkpoint" folder according to the date it was being trained. Hope this documentation helps you get a clear idea of how to work on Computer Vision projects. Comments are welcomed :)
 
-Link to download dataset: http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
+Link to download dataset: http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar <br>
 For more information regarding teh dataset, refer http://host.robots.ox.ac.uk/pascal/VOC/voc2012/
 
 Happy Learning!
