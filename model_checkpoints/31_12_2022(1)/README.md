@@ -21,7 +21,3 @@ model = tf.keras.Sequential([
     Dense(20, activation='sigmoid')
 ])
 ```
-
-Analysis:
-<img src="accuracy.png"/><br>
-<img src="loss.png"/><br>
