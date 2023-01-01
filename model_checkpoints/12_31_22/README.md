@@ -1,4 +1,4 @@
-# Training results
+# Training results (12/31/2022)
 
 These weights are being optimized using a simple learning model shown below.
 ``` 
@@ -22,3 +22,6 @@ model = tf.keras.Sequential([
 ])
 ```
 We observe that though the training loss decreases with the #iterations, the validation set loss takes a U shape curve, meaning it decreases until a few iterations and then increases. This means the model is moving towards overfitting or high variance. We also need to keep in mind that the training and validation datasets come from the same distribution.
+
+![Accuracy plot](./accuracy.png)
+![Loss plot](./loss.png)
