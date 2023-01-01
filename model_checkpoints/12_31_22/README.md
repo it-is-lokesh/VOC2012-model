@@ -1,7 +1,7 @@
 # Training results
 
 These weights are being optimized using a simple learning model shown below.
-```
+``` 
 model = tf.keras.Sequential([
     Conv2D(32, kernel_size=(5,5), padding='valid', activation='relu', input_shape=(128,128,3)),
     MaxPooling2D(pool_size=(2,2), padding='valid'),
