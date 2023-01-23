@@ -27,6 +27,6 @@ model = tf.keras.Sequential([
     Dense(20, activation='sigmoid')
 ])
 ```
-Now the U shape curve for the tvalidation loss has been eradicated and we observe that validation loss follows training loss with some deviation after 22 iterations. But we need to train the model longer to find out if the deviation increases and we again get a U shape curve or if the deviation goes on increasing. Either way, we need a better model than the current one! 
+Now the U shape curve for the validation loss has been eradicated and we observe that validation loss follows training loss with some deviation after 22 iterations. But we need to train the model longer to find out if the deviation increases and we again get a U shape curve or if the deviation goes on increasing. Either way, we need a better model than the current one! 
 
 - Task for tomorrow: Train for longer and understand how the validation loss behaves.
