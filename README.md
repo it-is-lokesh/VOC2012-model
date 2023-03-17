@@ -10,6 +10,7 @@ For more information regarding the dataset, refer http://host.robots.ox.ac.uk/pa
 
 Note: The folder naming format in the model_checkpoints forder is MM_DD_YY.
 
-Happy Learning!
+### Important Results concluded
+- We have run the iterations with and without using dropout, and noticed that the accuracy gets saturated  
 
 Have questions? Email me: g.sailokesh9@gmail.com
