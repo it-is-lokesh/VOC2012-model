@@ -1,4 +1,4 @@
-For the same model as yesterday, the outout activation has been replaced with softmax instead of sigmoid activation. 
+For the same model as yesterday, the output activation has been replaced with softmax instead of sigmoid activation. 
 
 Model:
 ```
